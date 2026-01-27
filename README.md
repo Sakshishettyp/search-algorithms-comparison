@@ -8,11 +8,7 @@ value `x` in a \*\*sorted array\*\*, implemented in multiple programming languag
 
 
 
-The focus is on \*\*algorithmic performance and complexity\*\*, not on
-
-language-specific optimizations.
-
-
+The focus is on \*\*algorithmic performance and complexity\*\*
 
 ---
 
@@ -51,7 +47,7 @@ Output: 2
 
 
 
-\## Algorithms Used (Language Independent)
+\## Algorithms Used 
 
 
 
@@ -98,26 +94,6 @@ Output: 2
 Absolute timings may vary by language, runtime, and machine, but \*\*performance
 
 growth trends remain consistent\*\*.
-
-
-
----
-
-
-
-\## Available Implementations
-
-
-
-\- \*\*Python\*\*: `solution.py`
-
-\- \*\*Java\*\*: `java/SearchAlgorithmsComparison.java`
-
-
-
-Each implementation follows the same algorithmic logic so that comparisons
-
-remain meaningful across languages.
 
 
 

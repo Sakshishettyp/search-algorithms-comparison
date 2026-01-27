@@ -52,7 +52,7 @@ public class SearchAlgorithmsComparison {
    public static void benchmark() {
 
     int[] sizes = {10, 100, 1000, 10000, 100000, 1000000};
-    int repetitions = 1_000_000; // run each search many times
+    int repetitions = 1_000_000;
 
     for (int n : sizes) {
 
@@ -82,7 +82,6 @@ public class SearchAlgorithmsComparison {
 
         System.out.println("-----------------------------------");
 
-        // Pause so humans can see it
         try {
             Thread.sleep(1000); // 1 second pause
         } catch (InterruptedException e) {
