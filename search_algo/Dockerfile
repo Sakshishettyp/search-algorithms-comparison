@@ -1,14 +1,11 @@
-# Use official Python 3.13 slim image
+# Use official lightweight Python 3.13 image
 FROM python:3.13-slim
 
-# Set working directory inside container
+# Set working directory inside the container
 WORKDIR /app
 
-# Copy all project files into the container
+# Copy all files from the local folder (search_algo) into the container
 COPY . .
 
-# Install dependencies if needed (currently none)
-# RUN pip install -r requirements.txt
-
-# Default command to run benchmark
-CMD ["python", "search_algo/benchmark_sol.py"]
+# Default command to run the benchmark
+CMD ["python", "benchmark_sol.py"]
