@@ -2,7 +2,7 @@ FROM eclipse-temurin:17-jdk-jammy
 
 WORKDIR /app
 
-COPY java/SearchAlgorithmsComparison.java .
+COPY src/SearchAlgorithmsComparison.java .
 
 RUN javac SearchAlgorithmsComparison.java
 
