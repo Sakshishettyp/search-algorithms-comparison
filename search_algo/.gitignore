@@ -1,0 +1,29 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment / virtual environments
+venv/
+.env/
+.env.*
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+
+# Docker artifacts (optional if you don't want images/containers tracked)
+*.tar
+*.docker
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE specific (optional, if you use VSCode or PyCharm)
+.vscode/
+.idea/
